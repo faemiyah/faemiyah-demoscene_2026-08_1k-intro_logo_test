@@ -1,0 +1,21 @@
+logo_test
+
+Code:                       Warma
+Audio, additional code:     Juippi
+Tooling, additional code:   Trilkk
+
+Tools: jeesi.py, Closure Compiler, Brotli
+
+4k wasn't happening, so Warma started with at least something. This is a few-
+evening crapto.
+
+Jyry note: The 'index.html.br' needs to be served by a web server for the
+intro to work in its 1k form. The mechanism used is identical to the one used
+by p01 and pestis in their Assembly 2023 1k intro "EXPI".
+
+Execute the following command in the intro folder:
+
+> python jeesi.py -s
+
+This will serve the precompiled intro, click on the link in the terminal to
+run. The address should be http://localhost:8080
